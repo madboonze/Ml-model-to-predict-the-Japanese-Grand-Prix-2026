@@ -1,11 +1,3 @@
-"""
-Suzuka Japanese GP Predictive Model (2026)
-==========================================
-Production-ready pipeline: FastF1 data → 20+ features → LightGBM / XGBoost / sklearn →
-finishing position & podium probability predictions.
-Success criteria: MAE < 4.5, Top-3 accuracy > 65%, Suzuka/form features in top 3.
-"""
-
 import warnings
 warnings.filterwarnings("ignore")
 
